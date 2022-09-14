@@ -1,5 +1,5 @@
 export interface SupportedLang {
-    lang: 'EN' | 'LV' | 'RU' | 'DE';
+    lang: 'EN' | 'LV' | 'RU' | 'DE' | 'PL';
     language: string;
     short: string;
     flag: string;
@@ -62,6 +62,35 @@ export const translatedText: Record<SupportedLang['lang'], Translation> = {
             open: 'Open',
             close: 'Close',
             private: 'Private',
+        },
+    },
+    PL: {
+        home: {
+            selectFile: 'wybierz plik',
+            changeFile: 'zmien plik',
+            ready: 'gotowy do przeslania',
+            upload: 'przeslij',
+            maxSize: '(maksymalna waga pliku 1mb)',
+            copied: 'skopiowane do schowka',
+            addTag: 'dodaj nazwe',
+            enterTag: 'wejdz w nazwe',
+        },
+        navigation: {
+            gallery: 'galeria',
+            myFiles: 'moje pliki',
+            home: 'dom',
+        },
+        gallery: {
+            contact: 'Skontaktuj sie z:',
+            download: 'Pobierz',
+            copyLink: 'Skopiowana kod url',
+            showNonImageFiles: 'Pokaz pliki bez obrazow',
+            seen: 'Widziany:',
+        },
+        global: {
+            open: 'Otworz',
+            close: 'Zamknij',
+            private: 'Prywatne',
         },
     },
     DE: {
@@ -141,6 +170,12 @@ export const supportedLanguages: SupportedLang[] = [
         language: 'English (USA)',
         short: 'EN (USA)',
         flag: 'https://www.worldometers.info/img/flags/small/tn_us-flag.gif',
+        lang: 'EN',
+    },
+    {
+        language: 'Polski ',
+        short: 'PL',
+        flag: 'https://acegif.com/wp-content/uploads/gifs/polish-flag-1.gif',
         lang: 'EN',
     },
     {
