@@ -176,7 +176,7 @@ export const supportedLanguages: SupportedLang[] = [
         language: 'Polski ',
         short: 'PL',
         flag: 'https://acegif.com/wp-content/uploads/gifs/polish-flag-1.gif',
-        lang: 'EN',
+        lang: 'PL',
     },
     {
         language: 'Russian',
